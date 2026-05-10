@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { SERVICES, WHATSAPP_NUMBER, WHATSAPP_MESSAGE_TEMPLATE } from "@/lib/config"
+import { SERVICES, 32998453091, WHATSAPP_MESSAGE_TEMPLATE } from "@/lib/config"
 import { saveAppointment, formatDateBR } from "@/lib/appointments"
 import { Send, User, Phone } from "lucide-react"
 
@@ -50,7 +50,7 @@ export function BookingForm({ serviceId, date, time, onSuccess }: BookingFormPro
       .replace("{horario}", time)
 
     /** EDITE: O numero do WhatsApp em /lib/config.ts */
-    const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/${32998453091}?text=${encodeURIComponent(message)}`
 
     // Abrir WhatsApp
     window.open(whatsappUrl, "_blank")

@@ -11,7 +11,7 @@ import { BUSINESS_NAME, BUSINESS_TAGLINE, LOGO_PATH, WHATSAPP_NUMBER } from "@/l
  * EDITE: Para alterar nome/tagline, edite o arquivo /lib/config.ts
  */
 export function Header() {
-  const whatsappLink = `https://wa.me/${WHATSAPP_NUMBER}`
+  const whatsappLink = `https://wa.me/${32998453091}`
 
   return (
     <header className="flex flex-col items-center gap-4 py-8 px-4">

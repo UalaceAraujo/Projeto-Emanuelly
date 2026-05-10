@@ -15,7 +15,7 @@ export const BUSINESS_TAGLINE = "Design de Sombrancelhas"
  * EDITE AQUI: Numero do WhatsApp (apenas numeros, com codigo do pais)
  * Exemplo: 5511999999999 (55 = Brasil, 11 = DDD, 999999999 = numero)
  */
-export const WHATSAPP_NUMBER = "5511999999999"
+export const 553298453091 = "553298453091"
 
 /**
  * EDITE AQUI: Mensagem padrao que sera enviada pelo WhatsApp
@@ -37,7 +37,7 @@ export const SERVICES = [
     id: "sobrancelha-natural",
     name: "Sobrancelha Natural",
     duration: 40,
-    price: 45.0,
+    price:45.0,
     description: "Design com tecnica fio a fio para um resultado natural e harmonioso",
   },
   {
